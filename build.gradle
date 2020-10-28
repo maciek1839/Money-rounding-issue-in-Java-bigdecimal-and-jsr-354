@@ -1,0 +1,24 @@
+plugins {
+    id "application"
+}
+apply plugin : "java"
+
+ext {
+    javaMainClass = "com.showmeyourcode.money.DecimalRoundingProblem"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+group 'com.showmeyourcode.money'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.javamoney', name: 'moneta', version: '1.4.2'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
