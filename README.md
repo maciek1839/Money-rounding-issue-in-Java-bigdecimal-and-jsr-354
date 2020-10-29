@@ -1,9 +1,17 @@
 # Money rounding issue in Java - BigDecimal and JSR 354
 A simple Java project shows a decimal rounding problem using Java. More details can be found here: https://dzone.com/articles/never-use-float-and-double-for-monetary-calculatio
 
-YouTube video: 
+YouTube video: https://youtu.be/r5oOtlWpzHE
 
 JavaMoney: https://javamoney.github.io/
+
+The rounding issue:  
+
+![Rounding problem](./docs/rounding-issue.PNG)
+
+Example solutions:  
+
+![ROunding solution](./docs/solutions.png)
 
 # Technology stack
 - JDK 11
